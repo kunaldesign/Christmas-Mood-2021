@@ -1,0 +1,144 @@
+/**************************BACKGROUND************************************/
+html, body {
+    margin: 0;
+  }
+  
+  body {
+    background-color: #dbdcdf;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .background {
+    background-size: cover;
+    background-image: url("https://i.postimg.cc/hjYQ6RSr/foresthalf-Two.jpg");
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .img {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /******************************BUTTONS ON and OFF************************************/
+  button {
+    width: 60px;
+    height: 60px;
+  }
+  
+  button:hover {
+    transform: scale(1.2);
+  }
+  
+  #buttonSwitchOn {
+    background-color: #0e0c2c00;
+    border: solid 2px #7c8599;
+    border-left: solid 2px #7c8599;
+    border-top: solid 0.5px #7c8599;
+    border-bottom: solid 0.5px #7c8599;
+    background-image: url("https://i.postimg.cc/m2Zpw4JF/lights.png");
+    border-radius: 15%;
+    background-size: 90px;
+    background-repeat: none;
+    background-position: center;
+    display: inline;
+    cursor: pointer;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+  }
+  
+  #buttonSwitchOff {
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 2px #7c8599;
+    border-left: solid 2px #7c8599;
+    border-top: solid 0.5px #7c8599;
+    border-bottom: solid 0.5px #7c8599;
+    border-radius: 15%;
+    background-image: url("https://i.postimg.cc/6Q3TB88f/noLights.png");
+    background-size: 90px;
+    background-repeat: none;
+    display: inline;
+    left: 80px;
+    top: 10px;
+    position: fixed;
+    background-position: center;
+  }
+  
+  #writeLetters {
+    background-color: #0e0c2c00;
+    border: solid 2px #7c8599;
+    border-left: solid 2px #7c8599;
+    border-top: solid 0.5px #7c8599;
+    border-bottom: solid 0.5px #7c8599;
+    background-image: url("https://i.postimg.cc/qRzLFVPB/pencil.png");
+    border-radius: 15%;
+    background-size: 90px;
+    background-repeat: none;
+    background-position: center;
+    display: inline;
+    cursor: pointer;
+    position: fixed;
+    left: 200px;
+    top: 10px;
+  }
+  
+  #deleteLetters {
+    background-color: #0e0c2c00;
+    border: solid 2px #7c8599;
+    border-left: solid 2px #7c8599;
+    border-top: solid 0.5px #7c8599;
+    border-bottom: solid 0.5px #7c8599;
+    background-image: url("https://i.postimg.cc/d00m7ctR/eraser.png");
+    border-radius: 15%;
+    background-size: 90px;
+    background-repeat: none;
+    background-position: center;
+    display: inline;
+    cursor: pointer;
+    position: fixed;
+    left: 270px;
+    top: 10px;
+  }
+  
+  #closeBox {
+    top: 410px;
+    position: fixed;
+    left: 650px;
+    width: 90px;
+    height: 40px;
+    border-radius: 10%;
+    border: 2px solid #4e060677;
+    background-color: #4e0606c4;
+    color: #fff;
+  }
+  
+  #closeBox:hover {
+    transform: scale(1.2);
+  }
+  
+  #showtimer {
+    background-image: url("https://i.postimg.cc/wB95xG0h/clock.png");
+    background-color: #0e0c2c00;
+    border: solid 2px #7c8599;
+    border-left: solid 2px #7c8599;
+    border-top: solid 0.5px #7c8599;
+    border-bottom: solid 0.5px #7c8599;
+    border-radius: 15%;
+    background-size: 90px;
+    background-repeat: none;
+    background-position: center;
+    display: inline;
+    cursor: pointer;
+    position: fixed;
+    left: 385px;
+    top: 10px;
+  }
+  
+  #showtimer:hover {
+    transform: scale(1.2);
+  }
+  
