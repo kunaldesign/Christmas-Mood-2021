@@ -1,144 +1,801 @@
 /**************************BACKGROUND************************************/
 html, body {
-    margin: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #dbdcdf;
+  position: fixed;
+  width: 100%;
+}
+
+.background {
+  background-size: cover;
+  background-image: url("https://i.postimg.cc/hjYQ6RSr/foresthalf-Two.jpg");
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.img {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+/******************************BUTTONS ON and OFF************************************/
+button {
+  width: 60px;
+  height: 60px;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+#buttonSwitchOn {
+  background-color: #0e0c2c00;
+  border: solid 2px #7c8599;
+  border-left: solid 2px #7c8599;
+  border-top: solid 0.5px #7c8599;
+  border-bottom: solid 0.5px #7c8599;
+  background-image: url("https://i.postimg.cc/m2Zpw4JF/lights.png");
+  border-radius: 15%;
+  background-size: 90px;
+  background-repeat: none;
+  background-position: center;
+  display: inline;
+  cursor: pointer;
+  position: fixed;
+  left: 10px;
+  top: 10px;
+}
+
+#buttonSwitchOff {
+  background-color: rgba(255, 255, 255, 0);
+  border: solid 2px #7c8599;
+  border-left: solid 2px #7c8599;
+  border-top: solid 0.5px #7c8599;
+  border-bottom: solid 0.5px #7c8599;
+  border-radius: 15%;
+  background-image: url("https://i.postimg.cc/6Q3TB88f/noLights.png");
+  background-size: 90px;
+  background-repeat: none;
+  display: inline;
+  left: 80px;
+  top: 10px;
+  position: fixed;
+  background-position: center;
+}
+
+#writeLetters {
+  background-color: #0e0c2c00;
+  border: solid 2px #7c8599;
+  border-left: solid 2px #7c8599;
+  border-top: solid 0.5px #7c8599;
+  border-bottom: solid 0.5px #7c8599;
+  background-image: url("https://i.postimg.cc/qRzLFVPB/pencil.png");
+  border-radius: 15%;
+  background-size: 90px;
+  background-repeat: none;
+  background-position: center;
+  display: inline;
+  cursor: pointer;
+  position: fixed;
+  left: 200px;
+  top: 10px;
+}
+
+#deleteLetters {
+  background-color: #0e0c2c00;
+  border: solid 2px #7c8599;
+  border-left: solid 2px #7c8599;
+  border-top: solid 0.5px #7c8599;
+  border-bottom: solid 0.5px #7c8599;
+  background-image: url("https://i.postimg.cc/d00m7ctR/eraser.png");
+  border-radius: 15%;
+  background-size: 90px;
+  background-repeat: none;
+  background-position: center;
+  display: inline;
+  cursor: pointer;
+  position: fixed;
+  left: 270px;
+  top: 10px;
+}
+
+#closeBox {
+  top: 410px;
+  position: fixed;
+  left: 650px;
+  width: 90px;
+  height: 40px;
+  border-radius: 10%;
+  border: 2px solid #4e060677;
+  background-color: #4e0606c4;
+  color: #fff;
+}
+
+#closeBox:hover {
+  transform: scale(1.2);
+}
+
+#showtimer {
+  background-image: url("https://i.postimg.cc/wB95xG0h/clock.png");
+  background-color: #0e0c2c00;
+  border: solid 2px #7c8599;
+  border-left: solid 2px #7c8599;
+  border-top: solid 0.5px #7c8599;
+  border-bottom: solid 0.5px #7c8599;
+  border-radius: 15%;
+  background-size: 90px;
+  background-repeat: none;
+  background-position: center;
+  display: inline;
+  cursor: pointer;
+  position: fixed;
+  left: 385px;
+  top: 10px;
+}
+
+#showtimer:hover {
+  transform: scale(1.2);
+}
+
+/**************************TIMER BOX********************************/
+#timerBox {
+  text-align: center;
+  font-size: 65px;
+  color: #4e0606;
+  margin-top: 15px;
+  position: relative;
+  font-family: "Griffy", cursive;
+}
+
+#timerBox {
+  background-color: #446447e0;
+  border: 5px solid #446447e0;
+  border-radius: 10%;
+  height: 320px;
+  width: 500px;
+  padding: 30px;
+  padding-top: 20px;
+  position: fixed;
+  margin: 0 auto;
+  left: 400px;
+  top: 100px;
+  display: none;
+}
+
+/************************AUDIO********************************/
+.backgroundMusic {
+  position: fixed;
+  left: 970px;
+  top: 10px;
+}
+
+/***********************************CHRISTMAS TREE ANIMATION*****************************************************************/
+.tree {
+  width: 700px;
+  position: fixed;
+  margin: 10px 550px;
+}
+
+.treeOff {
+  width: 700px;
+  position: fixed;
+  display: none;
+  margin: 10px 550px;
+}
+
+.starItself {
+  fill: #cdf100;
+  -webkit-animation: starAnim 1s infinite;
+          animation: starAnim 1s infinite;
+}
+
+.starCone {
+  fill: #f6fa28;
+  -webkit-animation: starAnim 1s infinite;
+          animation: starAnim 1s infinite;
+}
+
+@-webkit-keyframes starAnim {
+  0% {
+    fill: #f6fa28;
   }
-  
-  body {
-    background-color: #dbdcdf;
-    position: fixed;
-    width: 100%;
+  25% {
+    fill: #ebff7b;
   }
-  
-  .background {
-    background-size: cover;
-    background-image: url("https://i.postimg.cc/hjYQ6RSr/foresthalf-Two.jpg");
-    position: fixed;
-    width: 100%;
-    height: 100%;
+  50% {
+    fill: #f6fa28;
   }
-  
-  .img {
-    position: fixed;
-    width: 100%;
-    height: 100%;
+  75% {
+    fill: #ebff7b;
   }
-  
-  /******************************BUTTONS ON and OFF************************************/
-  button {
-    width: 60px;
-    height: 60px;
+  100% {
+    fill: #f6fa28;
   }
-  
-  button:hover {
-    transform: scale(1.2);
+}
+
+@keyframes starAnim {
+  0% {
+    fill: #f6fa28;
   }
-  
-  #buttonSwitchOn {
-    background-color: #0e0c2c00;
-    border: solid 2px #7c8599;
-    border-left: solid 2px #7c8599;
-    border-top: solid 0.5px #7c8599;
-    border-bottom: solid 0.5px #7c8599;
-    background-image: url("https://i.postimg.cc/m2Zpw4JF/lights.png");
-    border-radius: 15%;
-    background-size: 90px;
-    background-repeat: none;
-    background-position: center;
-    display: inline;
-    cursor: pointer;
-    position: fixed;
-    left: 10px;
-    top: 10px;
+  25% {
+    fill: #ebff7b;
   }
-  
-  #buttonSwitchOff {
-    background-color: rgba(255, 255, 255, 0);
-    border: solid 2px #7c8599;
-    border-left: solid 2px #7c8599;
-    border-top: solid 0.5px #7c8599;
-    border-bottom: solid 0.5px #7c8599;
-    border-radius: 15%;
-    background-image: url("https://i.postimg.cc/6Q3TB88f/noLights.png");
-    background-size: 90px;
-    background-repeat: none;
-    display: inline;
-    left: 80px;
-    top: 10px;
-    position: fixed;
-    background-position: center;
+  50% {
+    fill: #f6fa28;
   }
-  
-  #writeLetters {
-    background-color: #0e0c2c00;
-    border: solid 2px #7c8599;
-    border-left: solid 2px #7c8599;
-    border-top: solid 0.5px #7c8599;
-    border-bottom: solid 0.5px #7c8599;
-    background-image: url("https://i.postimg.cc/qRzLFVPB/pencil.png");
-    border-radius: 15%;
-    background-size: 90px;
-    background-repeat: none;
-    background-position: center;
-    display: inline;
-    cursor: pointer;
-    position: fixed;
-    left: 200px;
-    top: 10px;
+  75% {
+    fill: #ebff7b;
   }
-  
-  #deleteLetters {
-    background-color: #0e0c2c00;
-    border: solid 2px #7c8599;
-    border-left: solid 2px #7c8599;
-    border-top: solid 0.5px #7c8599;
-    border-bottom: solid 0.5px #7c8599;
-    background-image: url("https://i.postimg.cc/d00m7ctR/eraser.png");
-    border-radius: 15%;
-    background-size: 90px;
-    background-repeat: none;
-    background-position: center;
-    display: inline;
-    cursor: pointer;
-    position: fixed;
-    left: 270px;
-    top: 10px;
+  100% {
+    fill: #f6fa28;
   }
-  
-  #closeBox {
-    top: 410px;
-    position: fixed;
-    left: 650px;
-    width: 90px;
-    height: 40px;
-    border-radius: 10%;
-    border: 2px solid #4e060677;
-    background-color: #4e0606c4;
-    color: #fff;
+}
+.yellowBulb {
+  fill: #cdf100;
+  -webkit-animation: yellbulb 1s infinite;
+          animation: yellbulb 1s infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes yellbulb {
+  0% {
+    fill: #cdf100;
   }
-  
-  #closeBox:hover {
-    transform: scale(1.2);
+  50% {
+    fill: #454FA2;
   }
-  
-  #showtimer {
-    background-image: url("https://i.postimg.cc/wB95xG0h/clock.png");
-    background-color: #0e0c2c00;
-    border: solid 2px #7c8599;
-    border-left: solid 2px #7c8599;
-    border-top: solid 0.5px #7c8599;
-    border-bottom: solid 0.5px #7c8599;
-    border-radius: 15%;
-    background-size: 90px;
-    background-repeat: none;
-    background-position: center;
-    display: inline;
-    cursor: pointer;
-    position: fixed;
-    left: 385px;
-    top: 10px;
+  100% {
+    fill: #cdf100;
   }
-  
-  #showtimer:hover {
-    transform: scale(1.2);
+}
+
+@keyframes yellbulb {
+  0% {
+    fill: #cdf100;
   }
-  
+  50% {
+    fill: #454FA2;
+  }
+  100% {
+    fill: #cdf100;
+  }
+}
+.blueBulb {
+  fill: #284099;
+  -webkit-animation: bluebulb 1s infinite;
+          animation: bluebulb 1s infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+@-webkit-keyframes bluebulb {
+  0% {
+    fill: #454FA2;
+  }
+  50% {
+    fill: #E4CC1F;
+  }
+  100% {
+    fill: #454FA2;
+  }
+}
+
+@keyframes bluebulb {
+  0% {
+    fill: #454FA2;
+  }
+  50% {
+    fill: #E4CC1F;
+  }
+  100% {
+    fill: #454FA2;
+  }
+}
+.redBulb {
+  fill: #ED1C24;
+  -webkit-animation: redbulb 1s infinite;
+          animation: redbulb 1s infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes redbulb {
+  0% {
+    fill: #ED1C24;
+  }
+  50% {
+    fill: #235127;
+  }
+  100% {
+    fill: #ED1C24;
+  }
+}
+
+@keyframes redbulb {
+  0% {
+    fill: #ED1C24;
+  }
+  50% {
+    fill: #235127;
+  }
+  100% {
+    fill: #ED1C24;
+  }
+}
+.greenBulb {
+  fill: #235127;
+  -webkit-animation: greenbulb 1s infinite;
+          animation: greenbulb 1s infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+@-webkit-keyframes greenbulb {
+  0% {
+    fill: #235127;
+  }
+  50% {
+    fill: #B2B8D8;
+  }
+  100% {
+    fill: #235127;
+  }
+}
+
+@keyframes greenbulb {
+  0% {
+    fill: #235127;
+  }
+  50% {
+    fill: #B2B8D8;
+  }
+  100% {
+    fill: #235127;
+  }
+}
+.whiteBulb {
+  fill: #B2B8D8;
+  -webkit-animation: whitbulb 1s infinite;
+          animation: whitbulb 1s infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+@-webkit-keyframes whitbulb {
+  0% {
+    fill: #B2B8D8;
+  }
+  50% {
+    fill: #ED1C24;
+  }
+  100% {
+    fill: #B2B8D8;
+  }
+}
+
+@keyframes whitbulb {
+  0% {
+    fill: #B2B8D8;
+  }
+  50% {
+    fill: #ED1C24;
+  }
+  100% {
+    fill: #B2B8D8;
+  }
+}
+/********************************************************SNOWING***********************************************************/
+#snow {
+  width: 100%;
+  height: 100vh;
+  background-repeat: repeat no-repeat;
+  pointer-events: none;
+}
+
+.snowflakes {
+  background-image: url("https://i.postimg.cc/6pzrcSGH/snowflakes-Last.png");
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  /*Play the animation with the same speed from beginning to end*/
+}
+
+#slider {
+  position: fixed;
+  display: inline;
+  max-width: 850px;
+  padding: 1px;
+  background: #ffffff;
+  left: 25%;
+  bottom: 25px;
+  width: 50%;
+  height: 7px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 200%;
+  border-top-left-radius: 200%;
+  -webkit-appearance: none;
+}
+
+#slider::-webkit-slider-thumb {
+  height: 57px;
+  width: 57px;
+  background-color: transparent;
+  background: url(https://i.postimg.cc/50kFMZMs/snowflnew.png) center center no-repeat;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+#slider::-webkit-slider-thumb:hover {
+  transform: scale(1.1);
+}
+
+.snowflakesOne {
+  -webkit-animation-name: animateone;
+          animation-name: animateone;
+  background-size: 120px 120px;
+}
+
+.snowflakesTwo {
+  -webkit-animation-name: animatetwo;
+          animation-name: animatetwo;
+  background-size: 150px 150px;
+}
+
+.snowflakesThree {
+  -webkit-animation-name: animatethree;
+          animation-name: animatethree;
+  background-size: 190px 190px;
+}
+
+.snowflakesFour {
+  -webkit-animation-name: animatefour;
+          animation-name: animatefour;
+  background-size: 250px 250px;
+}
+
+.snowflakesFive {
+  -webkit-animation-name: animatefive;
+          animation-name: animatefive;
+  background-size: 350px 350px;
+}
+
+.snowflakesSix {
+  -webkit-animation-name: animatesix;
+          animation-name: animatesix;
+  background-size: 400px 400px;
+}
+
+.snowflakesSeven {
+  -webkit-animation-name: animateseven;
+          animation-name: animateseven;
+  background-size: 450px 450px;
+}
+
+@-webkit-keyframes animateone {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 900px 1300px;
+  }
+}
+
+@keyframes animateone {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 900px 1300px;
+  }
+}
+@-webkit-keyframes animatetwo {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 900px 1700px;
+  }
+}
+@keyframes animatetwo {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 900px 1700px;
+  }
+}
+@-webkit-keyframes animatethree {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 900px 1000px;
+  }
+}
+@keyframes animatethree {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 900px 1000px;
+  }
+}
+@-webkit-keyframes animatefour {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 500px 1200px;
+  }
+}
+@keyframes animatefour {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 500px 1200px;
+  }
+}
+@-webkit-keyframes animatefive {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 100px 1400px;
+  }
+}
+@keyframes animatefive {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 100px 1400px;
+  }
+}
+@-webkit-keyframes animatesix {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 900px 1000px;
+  }
+}
+@keyframes animatesix {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 900px 1000px;
+  }
+}
+@-webkit-keyframes animateseven {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 900px 1700px;
+  }
+}
+@keyframes animateseven {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 900px 1700px;
+  }
+}
+/****************************** GIFT BOXES *********************************************/
+.openGiftBear {
+  position: fixed;
+  left: 950px;
+  width: 250px;
+  height: 1050px;
+}
+
+.openGiftSoldier {
+  position: fixed;
+  left: 800px;
+  width: 250px;
+  height: 950px;
+}
+
+.openGiftBomb {
+  position: fixed;
+  left: 600px;
+  width: 250px;
+  height: 930px;
+  cursor: pointer;
+}
+
+.openGiftTrain {
+  position: fixed;
+  left: 450px;
+  width: 240px;
+  height: 970px;
+  cursor: pointer;
+}
+
+.openGiftEmpty {
+  position: fixed;
+  left: 290px;
+  width: 230px;
+  height: 920px;
+}
+
+/******************************* shake the box on hover*****************************/
+/*************Box Bear*****************/
+.openGiftBear:hover {
+  -webkit-animation: shakeBox 1.5s;
+          animation: shakeBox 1.5s;
+  transform: translate3d(0, 0, 0);
+}
+
+#boxBear:hover {
+  -webkit-animation: shakeBox 1.5s;
+          animation: shakeBox 1.5s;
+  transform: translate3d(0, 0, 0);
+}
+
+/************Box Soldier******************/
+.openGiftSoldier:hover {
+  -webkit-animation: shakeBox 1.5s;
+          animation: shakeBox 1.5s;
+  transform: translate3d(0, 0, 0);
+}
+
+#box:hover {
+  -webkit-animation: shakeBox 1.5s;
+          animation: shakeBox 1.5s;
+  transform: translate3d(0, 0, 0);
+}
+
+#coverBoxSoldier:hover {
+  -webkit-animation: shakeCover 1.5s;
+          animation: shakeCover 1.5s;
+  transform: translate3d(0, 0, 0);
+}
+
+/*************Box Train*****************/
+.openGiftTrain:hover {
+  -webkit-animation: shakeBox 1.5s;
+          animation: shakeBox 1.5s;
+  transform: translate3d(0, 0, 0);
+}
+
+#boxTrain:hover {
+  -webkit-animation: shakeBox 1.5s;
+          animation: shakeBox 1.5s;
+  transform: translate3d(0, 0, 0);
+}
+
+#coverTrain:hover {
+  -webkit-animation: shakeCover 1.5s;
+          animation: shakeCover 1.5s;
+  transform: translate3d(0, 0, 0);
+}
+
+/******************BOMB SMALL**********************/
+.openGiftBomb:hover {
+  -webkit-animation: shakeBox 1.5s;
+          animation: shakeBox 1.5s;
+  transform: translate3d(0, 0, 0);
+}
+
+#boxBomb:hover {
+  -webkit-animation: shakeBox 1.5s;
+          animation: shakeBox 1.5s;
+  transform: translate3d(0, 0, 0);
+}
+
+#coverBomb:hover {
+  -webkit-animation: shakeCover 1.5s;
+          animation: shakeCover 1.5s;
+  transform: translate3d(0, 0, 0);
+}
+
+/******************empty box**********************/
+.openGiftEmpty:hover {
+  -webkit-animation: shakeBox 1.5s;
+          animation: shakeBox 1.5s;
+  transform: translate3d(0, 0, 0);
+}
+
+#boxEmpty:hover {
+  -webkit-animation: shakeBox 1.5s;
+          animation: shakeBox 1.5s;
+  transform: translate3d(0, 0, 0);
+}
+
+#coverEmpty:hover {
+  -webkit-animation: shakeCover 1.5s;
+          animation: shakeCover 1.5s;
+  transform: translate3d(0, 0, 0);
+}
+
+/*************Animation keyframes***********************/
+@-webkit-keyframes shakeBox {
+  10%, 90% {
+    transform: translate3d(-3px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(4px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-5px, 0, 0);
+  }
+  40%, 60%, 100% {
+    transform: translate3d(5px, 0, 0);
+  }
+}
+@keyframes shakeBox {
+  10%, 90% {
+    transform: translate3d(-3px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(4px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-5px, 0, 0);
+  }
+  40%, 60%, 100% {
+    transform: translate3d(5px, 0, 0);
+  }
+}
+#coverBear:hover {
+  -webkit-animation: shakeCover 1.5s;
+          animation: shakeCover 1.5s;
+  transform: translate3d(0, 0, 0);
+}
+
+@-webkit-keyframes shakeCover {
+  10%, 90% {
+    transform: translate3d(-3px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(4px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-5px, 0, 0);
+  }
+  40%, 60%, 100% {
+    transform: translate3d(5px, 0, 0);
+  }
+}
+
+@keyframes shakeCover {
+  10%, 90% {
+    transform: translate3d(-3px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(4px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-5px, 0, 0);
+  }
+  40%, 60%, 100% {
+    transform: translate3d(5px, 0, 0);
+  }
+}
+/*****************************Merry Christmas*********************************************************/
+.MerryChristmas {
+  position: fixed;
+  padding: 5px 10px;
+  width: 600px;
+}
+
+/************************************Explosion***************************************/
+.explosionSmallPresent {
+  position: fixed;
+  left: 770px;
+  height: 900px;
+  pointer-events: none;
+}/*# sourceMappingURL=style.css.map */
