@@ -13,6 +13,7 @@ The things you need before go to website.
 ### For open lights
 * Just go left side on site and **click** light button
 
+![tree](/icon.png)
 ### For open lights 
 * **Click** on close light button
 
