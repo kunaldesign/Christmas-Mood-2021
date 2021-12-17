@@ -1,11 +1,14 @@
 <p align=""center>
+
 <center>
+
 <a href="https://github.com/kunaldesign/Christmas-Mood-2021"><img src="icon.png" alt="Christmas-Mood-2021" width="200"></a>
 <h1>
   <br>
   Christmas-Mood-2021
   <br>
 </h1>
+
 </center>
 
 <center>
@@ -26,7 +29,9 @@
 
 
 [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](/style.css)
+
 </center>
+
 </p>
 
 <p align="center">
