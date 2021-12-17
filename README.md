@@ -154,7 +154,7 @@ The things you need before go to website.
 - **CLick**Box4
 ![box4](/images/box4.png)
 - After **Click** Box4
-- ![box4 open](/images/box4o.png)
+![box4 open](/images/box4o.png)
  ---
 ### Box5
 - **CLick**Box5
