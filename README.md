@@ -103,28 +103,75 @@ The things you need before go to website.
 ### For open lights
 
 - Just go left side on site and **click** light button
+![open lights](/images/button1.png)
 
-### For open lights
+### For Close lights
 
 - **Click** on close light button
+![close lights](/images/button2.png)
 
 ### For pencile button
 
-- **Click** on pencil button and see megic on website
+- **Click** on pencil button 
+![pencilbutton](/images/pencilbutton.png)
+- After **CLick** Pencil button
+![Pencil2](/images/pencil2.png)
 
 ### For erase merry chritmas
 
 - **CLick** on erase button
+![erasebutton](/images/erasebutton.png)
 
 ### Roll of alarm button
 
-- **Click** on alarm button and see megic and after that click the **CLose** button
+- **Click** on alarm button and see megic 
+![alarmbutton](/images/alarmbutton.png)
+ after that click the **CLose** button
+![closebutton](/images/close.png)
 
 ### For gift box
-
+### Box1
 - Drag your mouse or (touch & swipe){in mobile } to **Click** the gift boxes and see your gift.
+![box2](/images/box1.png)
+
+- After **Click** Box1
+![box2 open](/images/Box1o.png)
 
 ---
+### Box2
+- **CLick**Box2
+![box1](/images/box2.png)
+- After **Click** Box2
+- ![box1](/images/Box2o.png)
+---
+### Box3
+- **CLick**Box3
+![box3](/images/box3.png)
+- After **Click** Box3
+- ![box3 open](/images/Bomb.png)
+ ---
+### Box4
+- **CLick**Box4
+![box4](/images/box4.png)
+- After **Click** Box4
+- ![box4 open](/images/box4o.png)
+ ---
+### Box5
+- **CLick**Box5
+![box5](/images/box5.png)
+- After **Click** Box5
+- ![box5 open](/images/Box5o.png)
+---
+### For **play** Chirstmas song
+- **Click** play button 
+![For play song](/images/music.png)
+---
+### For controle Snowfall Speed
+- Drag your mouse or right **Click**   on control button and slide curser right for high speed and left side  for low speed to 
+ ![Snowcontrole](/images/Snow.png)
+---
+
+
 # Credits 🏅
 
 - This software uses the following open source packages:\*
