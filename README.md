@@ -133,10 +133,10 @@ The things you need before go to website.
 
 # Contributing 🗯️
 
-- [Code of Conduct](https://github.com/nhn/tui.editor/blob/master/CODE_OF_CONDUCT.md)
-- [Contributing Guideline](https://github.com/nhn/tui.editor/blob/master/CONTRIBUTING.md)
-- [Commit Convention](https://github.com/nhn/tui.editor/blob/master/docs/COMMIT_MESSAGE_CONVENTION.md)
-- [Issue Guidelines](https://github.com/nhn/tui.editor/tree/master/.github/ISSUE_TEMPLATE)
+- [Code of Conduct](/CODE_OF_CONDUCT.md)
+- [Contributing Guideline](/CONTRIBUTING.md)
+- [Commit Convention](/.github/ISSUE_TEMPLATE/COMMIT_MESSAGE_CONVENTION.md)
+- [Issue Guidelines](/.github/ISSUE_TEMPLATE)
 
 
 ---
