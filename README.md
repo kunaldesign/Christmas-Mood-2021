@@ -132,23 +132,23 @@ The things you need before go to website.
 ### For gift box
 ### Box1
 - Drag your mouse or (touch & swipe){in mobile } to **Click** the gift boxes and see your gift.
-![box2](/images/box1.png)
+![box1](/images/box1.png)
 
 - After **Click** Box1
-![box2 open](/images/Box1o.png)
+![box1open](/images/Box1o.png)
 
 ---
 ### Box2
 - **CLick**Box2
-![box1](/images/box2.png)
+![box2](/images/box2.png)
 - After **Click** Box2
-- ![box1](/images/Box2o.png)
+![box2](/images/box2o.png)
 ---
 ### Box3
 - **CLick**Box3
 ![box3](/images/box3.png)
 - After **Click** Box3
-- ![box3 open](/images/Bomb.png)
+![box3 open](/images/bomb.png)
  ---
 ### Box4
 - **CLick**Box4
@@ -160,7 +160,7 @@ The things you need before go to website.
 - **CLick**Box5
 ![box5](/images/box5.png)
 - After **Click** Box5
-- ![box5 open](/images/Box5o.png)
+![box5 open](/images/Box5o.png)
 ---
 ### For **play** Chirstmas song
 - **Click** play button 
@@ -168,7 +168,7 @@ The things you need before go to website.
 ---
 ### For controle Snowfall Speed
 - Drag your mouse or right **Click**   on control button and slide curser right for high speed and left side  for low speed to 
- ![Snowcontrole](/images/Snow.png)
+![Snowcontrole](/images/Snow.png)
 ---
 
 
