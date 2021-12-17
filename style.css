@@ -191,13 +191,13 @@ button:hover {
 .starItself {
   fill: #cdf100;
   -webkit-animation: starAnim 1s infinite;
-  animation: starAnim 1s infinite;
+          animation: starAnim 1s infinite;
 }
 
 .starCone {
   fill: #f6fa28;
   -webkit-animation: starAnim 1s infinite;
-  animation: starAnim 1s infinite;
+          animation: starAnim 1s infinite;
 }
 
 @-webkit-keyframes starAnim {
@@ -217,6 +217,7 @@ button:hover {
     fill: #f6fa28;
   }
 }
+
 @keyframes starAnim {
   0% {
     fill: #f6fa28;
@@ -237,9 +238,9 @@ button:hover {
 .yellowBulb {
   fill: #cdf100;
   -webkit-animation: yellbulb 1s infinite;
-  animation: yellbulb 1s infinite;
+          animation: yellbulb 1s infinite;
   -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 @-webkit-keyframes yellbulb {
@@ -253,6 +254,7 @@ button:hover {
     fill: #cdf100;
   }
 }
+
 @keyframes yellbulb {
   0% {
     fill: #cdf100;
@@ -267,9 +269,9 @@ button:hover {
 .blueBulb {
   fill: #284099;
   -webkit-animation: bluebulb 1s infinite;
-  animation: bluebulb 1s infinite;
+          animation: bluebulb 1s infinite;
   -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 @-webkit-keyframes bluebulb {
@@ -283,6 +285,7 @@ button:hover {
     fill: #454FA2;
   }
 }
+
 @keyframes bluebulb {
   0% {
     fill: #454FA2;
@@ -297,9 +300,9 @@ button:hover {
 .redBulb {
   fill: #ED1C24;
   -webkit-animation: redbulb 1s infinite;
-  animation: redbulb 1s infinite;
+          animation: redbulb 1s infinite;
   -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 @-webkit-keyframes redbulb {
@@ -313,6 +316,7 @@ button:hover {
     fill: #ED1C24;
   }
 }
+
 @keyframes redbulb {
   0% {
     fill: #ED1C24;
@@ -327,9 +331,9 @@ button:hover {
 .greenBulb {
   fill: #235127;
   -webkit-animation: greenbulb 1s infinite;
-  animation: greenbulb 1s infinite;
+          animation: greenbulb 1s infinite;
   -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 @-webkit-keyframes greenbulb {
@@ -343,6 +347,7 @@ button:hover {
     fill: #235127;
   }
 }
+
 @keyframes greenbulb {
   0% {
     fill: #235127;
@@ -357,9 +362,9 @@ button:hover {
 .whiteBulb {
   fill: #B2B8D8;
   -webkit-animation: whitbulb 1s infinite;
-  animation: whitbulb 1s infinite;
+          animation: whitbulb 1s infinite;
   -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 @-webkit-keyframes whitbulb {
@@ -373,6 +378,7 @@ button:hover {
     fill: #B2B8D8;
   }
 }
+
 @keyframes whitbulb {
   0% {
     fill: #B2B8D8;
@@ -398,7 +404,7 @@ button:hover {
   height: 100%;
   position: fixed;
   -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
+          animation-timing-function: linear;
   /*Play the animation with the same speed from beginning to end*/
 }
 
@@ -434,43 +440,43 @@ button:hover {
 
 .snowflakesOne {
   -webkit-animation-name: animateone;
-  animation-name: animateone;
+          animation-name: animateone;
   background-size: 120px 120px;
 }
 
 .snowflakesTwo {
   -webkit-animation-name: animatetwo;
-  animation-name: animatetwo;
+          animation-name: animatetwo;
   background-size: 150px 150px;
 }
 
 .snowflakesThree {
   -webkit-animation-name: animatethree;
-  animation-name: animatethree;
+          animation-name: animatethree;
   background-size: 190px 190px;
 }
 
 .snowflakesFour {
   -webkit-animation-name: animatefour;
-  animation-name: animatefour;
+          animation-name: animatefour;
   background-size: 250px 250px;
 }
 
 .snowflakesFive {
   -webkit-animation-name: animatefive;
-  animation-name: animatefive;
+          animation-name: animatefive;
   background-size: 350px 350px;
 }
 
 .snowflakesSix {
   -webkit-animation-name: animatesix;
-  animation-name: animatesix;
+          animation-name: animatesix;
   background-size: 400px 400px;
 }
 
 .snowflakesSeven {
   -webkit-animation-name: animateseven;
-  animation-name: animateseven;
+          animation-name: animateseven;
   background-size: 450px 450px;
 }
 
@@ -482,6 +488,7 @@ button:hover {
     background-position: 900px 1300px;
   }
 }
+
 @keyframes animateone {
   0% {
     background-position: 0px 0px;
@@ -628,89 +635,89 @@ button:hover {
 /*************Box Bear*****************/
 .openGiftBear:hover {
   -webkit-animation: shakeBox 1.5s;
-  animation: shakeBox 1.5s;
+          animation: shakeBox 1.5s;
   transform: translate3d(0, 0, 0);
 }
 
 #boxBear:hover {
   -webkit-animation: shakeBox 1.5s;
-  animation: shakeBox 1.5s;
+          animation: shakeBox 1.5s;
   transform: translate3d(0, 0, 0);
 }
 
 /************Box Soldier******************/
 .openGiftSoldier:hover {
   -webkit-animation: shakeBox 1.5s;
-  animation: shakeBox 1.5s;
+          animation: shakeBox 1.5s;
   transform: translate3d(0, 0, 0);
 }
 
 #box:hover {
   -webkit-animation: shakeBox 1.5s;
-  animation: shakeBox 1.5s;
+          animation: shakeBox 1.5s;
   transform: translate3d(0, 0, 0);
 }
 
 #coverBoxSoldier:hover {
   -webkit-animation: shakeCover 1.5s;
-  animation: shakeCover 1.5s;
+          animation: shakeCover 1.5s;
   transform: translate3d(0, 0, 0);
 }
 
 /*************Box Train*****************/
 .openGiftTrain:hover {
   -webkit-animation: shakeBox 1.5s;
-  animation: shakeBox 1.5s;
+          animation: shakeBox 1.5s;
   transform: translate3d(0, 0, 0);
 }
 
 #boxTrain:hover {
   -webkit-animation: shakeBox 1.5s;
-  animation: shakeBox 1.5s;
+          animation: shakeBox 1.5s;
   transform: translate3d(0, 0, 0);
 }
 
 #coverTrain:hover {
   -webkit-animation: shakeCover 1.5s;
-  animation: shakeCover 1.5s;
+          animation: shakeCover 1.5s;
   transform: translate3d(0, 0, 0);
 }
 
 /******************BOMB SMALL**********************/
 .openGiftBomb:hover {
   -webkit-animation: shakeBox 1.5s;
-  animation: shakeBox 1.5s;
+          animation: shakeBox 1.5s;
   transform: translate3d(0, 0, 0);
 }
 
 #boxBomb:hover {
   -webkit-animation: shakeBox 1.5s;
-  animation: shakeBox 1.5s;
+          animation: shakeBox 1.5s;
   transform: translate3d(0, 0, 0);
 }
 
 #coverBomb:hover {
   -webkit-animation: shakeCover 1.5s;
-  animation: shakeCover 1.5s;
+          animation: shakeCover 1.5s;
   transform: translate3d(0, 0, 0);
 }
 
 /******************empty box**********************/
 .openGiftEmpty:hover {
   -webkit-animation: shakeBox 1.5s;
-  animation: shakeBox 1.5s;
+          animation: shakeBox 1.5s;
   transform: translate3d(0, 0, 0);
 }
 
 #boxEmpty:hover {
   -webkit-animation: shakeBox 1.5s;
-  animation: shakeBox 1.5s;
+          animation: shakeBox 1.5s;
   transform: translate3d(0, 0, 0);
 }
 
 #coverEmpty:hover {
   -webkit-animation: shakeCover 1.5s;
-  animation: shakeCover 1.5s;
+          animation: shakeCover 1.5s;
   transform: translate3d(0, 0, 0);
 }
 
@@ -745,7 +752,7 @@ button:hover {
 }
 #coverBear:hover {
   -webkit-animation: shakeCover 1.5s;
-  animation: shakeCover 1.5s;
+          animation: shakeCover 1.5s;
   transform: translate3d(0, 0, 0);
 }
 
@@ -763,6 +770,7 @@ button:hover {
     transform: translate3d(5px, 0, 0);
   }
 }
+
 @keyframes shakeCover {
   10%, 90% {
     transform: translate3d(-3px, 0, 0);
@@ -790,5 +798,4 @@ button:hover {
   left: 770px;
   height: 900px;
   pointer-events: none;
-}
-/*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
